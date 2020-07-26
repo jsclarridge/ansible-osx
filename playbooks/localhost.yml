@@ -1,0 +1,7 @@
+---
+- name: Manage local computer
+  vars_files:
+    - ../group_vars/all.yml
+  hosts: localhost
+  roles:
+    - homedir
