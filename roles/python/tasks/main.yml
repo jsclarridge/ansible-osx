@@ -1,0 +1,7 @@
+---
+- name: Install python packages (3.x)
+  pip:
+    name:
+      - pynvim
+    extra_args: --user
+    state: latest
