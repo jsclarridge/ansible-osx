@@ -4,4 +4,5 @@
     - ../group_vars/all.yml
   hosts: localhost
   roles:
+    - homebrew
     - homedir

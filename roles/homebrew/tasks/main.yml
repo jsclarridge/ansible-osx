@@ -1,0 +1,7 @@
+---
+- name: Install homebrew packages
+  homebrew:
+    name: "{{item.name}}"
+    install_options: "{{item.install_options}}"
+  with_items:
+    - {name: vim, install_options: ""}
