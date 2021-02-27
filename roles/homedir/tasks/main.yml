@@ -3,7 +3,7 @@
   git:
     repo: "git@github.com:{{git_username}}/homedir.git"
     dest: "{{homedir}}/{{username}}/{{personal_dir}}/homedir"
-    version: master
+    version: main
     accept_hostkey: yes
 
 - name: Symlink dot files
